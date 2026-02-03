@@ -1,4 +1,9 @@
 {
   "name": "React-Practice",
-  "packageManager": "yarn@4.10.3"
+  "packageManager": "yarn@4.10.3",
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "react-bootstrap": "^2.10.10",
+    "styled-components": "^6.3.8"
+  }
 }

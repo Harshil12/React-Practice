@@ -9,5 +9,9 @@ export default defineConfig({
         plugins: [['babel-plugin-react-compiler']],
       },
     }),
+    
   ],
+   resolve: {
+    dedupe: ['react', 'react-dom']
+  }
 })
